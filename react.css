@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto&display=swap');
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3rem;
+    margin-left: 25px;
+    line-height: 70px;
+    text-align: center;
+    /* Adicionado para centralizar o título */
+}
+
+.conteudo {
+    background-color: rgb(89, 142, 146);
+    width: 99%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+    height: 600px;
+    position: relative;
+}
+
+.texto {
+    color: aliceblue;
+    width: 50%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 230px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.titulo {
+    color: aliceblue;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+    transform: translateX(-50%);
+    line-height: 15px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.foto {
+    border: 5px solid rgb(202, 202, 202);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    align-self: center;
+    height: 600px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.perfil {
+    background-color: rgb(226, 226, 226);
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    margin-top: 60px;
+    margin-right: 90px;
+}
+
+.botao {
+    color: aliceblue;
+    box-shadow: 0px 6px 15px -7px rgb(89, 142, 146);
+    background: linear-gradient(to bottom, rgb(33, 112, 117) 5%, rgb(89, 142, 146) 100%);
+    background-color: rgb(43, 153, 61);
+    border-radius: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    font-size: 30px;
+    padding: 14px 32px;
+    text-shadow: 0px 2px 0px #3d768a;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.3s;
+    text-decoration: none;
+}

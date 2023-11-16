@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="portifólio.js"></script>
+    <link rel="stylesheet" href="css portf.css">
+    <title>Meu portifólio</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Blog do programador</h1>
+        <nav>
+            <ul>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+                <li>Whatsapp</li>
+                <li>Github</li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="conteudo">
+        <h2 class="titulo">Linguagens de programação web</h2>
+        <p class="texto">HTML (Hypertext Markup Language) é a linguagem de marcação usada para estruturar o conteúdo de uma página web, utilizando tags para definir elementos como títulos, parágrafos e links. CSS (Cascading Style Sheets) controla o estilo, permitindo
+            a definição de cores, fontes e layouts para tornar a página visualmente atraente. Já o JavaScript (JS) é uma linguagem de programação que adiciona interatividade, possibilitando a manipulação dinâmica de elementos HTML, resposta a eventos
+            do usuário e comunicação com o servidor, proporcionando uma experiência mais dinâmica e envolvente aos usuários.</p>
+        <br>
+        <a class="botaoctt" href='C:\Users\raoan\Desktop\segundo semestre programação\Blog pessoal programador\html.html'>HTML</a>
+        <a class="botaoctt" href='C:\Users\raoan\Desktop\segundo semestre programação\Blog pessoal programador\css.html'>CSS</a>
+        <a class="botaoctt" href='C:\Users\raoan\Desktop\segundo semestre programação\Blog pessoal programador\javascript.html'>Javascript</a>
+        <div class="perfil">
+            <img src="./imagens/javascript-padroes-abordagem-funcional.webp" alt="foto de perfil" class="foto zoom">
+            <ul class="lista">
+                <li>Javascript</li>
+                <!-- <li>Idade: 19 anos</li>
+                <li>Dev Fullstack</li>
+            </ul> -->
+        </div>
+        <br>
+        <div class="conteudo2">
+            <h2 class="titulo2">NodeJS</h2>
+            <p class="texto2">NodeJS: NodeJS é um ambiente de execução JavaScript do lado do servidor, construído sobre o motor V8 do Google Chrome. Ele permite que os desenvolvedores usem JavaScript para escrever scripts do lado do servidor, tornando possível a construção
+                de aplicações escaláveis e eficientes, além de facilitar a criação de aplicativos em tempo real devido à sua natureza assíncrona e orientada a eventos.</p>
+            <br>
+            <div class="linha"></div>
+            <h2 class="titulo2">ReactJS</h2>
+            <p class="texto3">ReactJS: ReactJS é uma biblioteca JavaScript de código aberto desenvolvida pelo Facebook, utilizada para construir interfaces de usuário interativas e reativas em aplicações web. Baseada em componentes reutilizáveis, facilita o desenvolvimento
+                de UIs dinâmicas, oferecendo uma abordagem declarativa para criar e atualizar elementos da interface.</p>
+            <div class="perfil2">
+                <button class="setinha1" id="setinha1" onclick="mudarSlide(-1)">ᐸ</button>
+                <div class="slider">
+                    <div class="slide active">
+                        <a href="#" onclick="valida1()">
+                            <img src="./imagens/node.png" alt="NodeJS">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="#" onclick="valida2()">
+                            <img src="./imagens/react-removebg-preview.png" alt="ReactJS">
+                        </a>
+                    </div>
+                </div>
+                <button class="setinha2" id="setinha2" onclick="mudarSlide(1)">ᐳ</button>
+                <p class="texto4">Escolha uma, clique e descubra mais!</p>
+            </div>
+            <div class="container">
+                <div class="container">
+                    <div class="conteudo3">
+                        <h3 class="texto5">Informe sua preferência!</h3>
+                        <h4 class="texto6">Selecione abaixo e descubra tecnologias incriveis para seu estilo de programação</h4>
+                        <label for="select" class="labelselect">Selecione uma opção</label>
+                        <div class="div-select">
+                            <select class="text-center" name="select" id="select" onchange="changeImage()">
+                            <option value="0">Escolha</option>
+                            <option value="1">Backend</option>
+                            <option value="2">Frontend</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="conteudo4">
+                        <img id="dynamicImage" src="" alt="Imagem Dinâmica" class="imagemjs">
+                    </div>
+                    <div class="bio">
+                        <h2 class="titulo">Raoan Marcel Jukowski</h2>
+                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <br>
+                        <div class="perfil">
+                            <img src="./imagens/perfil.avif" alt="foto de perfil" class="foto zoom">
+                            <ul class="lista">
+                                <li>Raoan Marcel Jukowski</li>
+                                <li>Idade: 19 anos</li>
+                                <li>Dev Fullstack</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>Desenvolvido por Raoan Marcel Jukowski</footer>
+</body>
+
+</html>
